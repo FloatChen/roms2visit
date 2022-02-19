@@ -1,5 +1,10 @@
 # roms2visit
 
+Prerequisites:
+
+m_map: https://www.eoas.ubc.ca/~rich/map.html
+visit: https://wci.llnl.gov/simulation/computer-codes/visit
+
 Write ROMS model output to FVCOM format for Visualization with visit;
 
 Divied a C grid into two triangle 
