@@ -1,13 +1,15 @@
 # roms2visit
 
-Write ROMS model output to fvcom format for Visualization with visit;
+Write ROMS model output to FVCOM format for Visualization with visit;
 
 Divied a C grid into two triangle 
 
 Transform ROMS output to FVCOM output 
 
-roms mesh to  triangle mesh for visit 
+ROMS mesh to  triangle mesh for visit (with or without mask; with or without projection)
 
-Input: ROMS outfile(f1); cdl file(f2); FVCOM form file(fout); proj option(flag_proj)
+Input: ROMS outfile(f1); cdl file(f2); 
 
--by chenyong 2022-2-19 
+Output: FVCOM form file(fout); 
+
+--by chenyong 2022-2-19 
